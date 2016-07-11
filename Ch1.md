@@ -10,3 +10,8 @@ Example 3:
 f = 1/(2 - #) &
 Plot[f[x], {x, -10, 10}, PlotRange -> {-10, 10}]
 ```
+Example 4:
+```mathematica
+f = Sin[100#] &
+Plot[f[x], {x, -12, 12}, PlotRange -> {-1, 1}]
+```
